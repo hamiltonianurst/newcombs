@@ -104,7 +104,7 @@
             <div class="element" id="subject">
                 <div class="element-title">The Subject</div>
                 <div class="element-content" id="subject-content">
-                    <img src="C:\\Users\\Brendan\\Downloads\\Calvinist FDC\\nate.jpg" alt="A person making a decision" />
+                    <img src="./assets/nate.jpg" alt="A person making a decision" />
                     <p>You are presented with a choice between two boxes</p>
                 </div>
             </div>
@@ -112,7 +112,7 @@
             <div class="element" id="omega">
                 <div class="element-title">Omega</div>
                 <div class="element-content" id="omega-content">
-                    <img src="C:\\Users\\Brendan\\Downloads\\Calvinist FDC\\omega.jpg" alt="Omega the predictor" />
+                    <img src="./assets/omega.jpg" alt="Omega the predictor" />
                     <p>A superintelligent being who can predict your choices</p>
                 </div>
             </div>
@@ -164,12 +164,12 @@
             const content = document.getElementById('subject-content');
             if (content.querySelector('p').textContent.includes("You are presented")) {
                 content.innerHTML = `
-                    <img src="C:\\Users\\Brendan\\Downloads\\Calvinist FDC\\JC.jpg" alt="A rational decision maker" />
+                    <img src="./assets/JC.jpg" alt="A rational decision maker" />
                     <p>You have a problem in 16th-Century France</p>
                 `;
             } else {
                 content.innerHTML = `
-                    <img src="C:\\Users\\Brendan\\Downloads\\Calvinist FDC\\nate.jpg" alt="A person making a decision" />
+                    <img src="./assets/nate.jpg" alt="A person making a decision" />
                     <p>You are presented with a choice between two boxes</p>
                 `;
             }
@@ -179,12 +179,12 @@
             const content = document.getElementById('omega-content');
             if (content.querySelector('p').textContent.includes("superintelligent")) {
                 content.innerHTML = `
-                    <img src="C:\\Users\\Brendan\\Downloads\\Calvinist FDC\\god.jpg" alt="Mysterious entity" />
+                    <img src="./assets/god.jpg" alt="Mysterious entity" />
                     <p>An all-knowing being</p>
                 `;
             } else {
                 content.innerHTML = `
-                    <img src="C:\\Users\\Brendan\\Downloads\\Calvinist FDC\\omega.jpg" alt="Omega the predictor" />
+                    <img src="./assets/omega.jpg" alt="Omega the predictor" />
                     <p>A superintelligent being who can predict your choices</p>
                 `;
             }
@@ -194,7 +194,7 @@
             const content = document.getElementById('box1-content');
             if (content.querySelector('p').textContent === "$1,000") {
                 content.innerHTML = `
-                    <img src="C:\\Users\\Brendan\\Downloads\\Calvinist FDC\\sin.jpg" alt="Money" />
+                    <img src="./assets/sin.jpg" alt="Money" />
                     <p>Sin</p>
                 `;
             } else {
@@ -208,7 +208,7 @@
             const content = document.getElementById('box2-content');
             if (content.querySelector('p').textContent === "$1,000,000 or $0") {
                 content.innerHTML = `
-                    <img src="C:\\Users\\Brendan\\Downloads\\Calvinist FDC\\horh.jpg" alt="Mystery box" />
+                    <img src="./assets/horh.jpg" alt="Mystery box" />
                     <p>Heaven or Hell</p>
                 `;
             } else {
